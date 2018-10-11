@@ -9,7 +9,6 @@ let g:ncm2_gtags#source = get(g:, 'ncm2_gtags#source', {
       \ 'name': 'gtags',
       \ 'priority': 6,
       \ 'mark': 'gtags',
-      \ 'word_pattern': '[\w/]+',
       \ 'on_complete': 'ncm2_gtags#on_complete',
       \ 'on_warmup': 'ncm2_gtags#on_warmup'
       \ })
